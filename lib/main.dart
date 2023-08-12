@@ -77,7 +77,7 @@ class LoginPage extends StatelessWidget {
                 padding: const EdgeInsets.all(16.0),
                 child: _login(),
               ),
-              _botonesAccion(context),
+              _botonAccion(context),
               const SizedBox(height: 20),
               const Text(
                 '@Grupo1',
@@ -204,7 +204,7 @@ class LoginPage extends StatelessWidget {
     }
   }
 
-  Widget _botonesAccion(BuildContext context) {
+  Widget _botonAccion(BuildContext context) {
     return Center(
       child: ElevatedButton(
         onPressed: () => _validarDatos(context),
